@@ -1,0 +1,37 @@
+{
+  "shift": "甲",
+  "roster": {
+    "甲": [
+      "周工"
+    ],
+    "乙": [
+      "郁工"
+    ]
+  },
+  "machines": [
+    {
+      "id": "P4",
+      "area": "东侧"
+    },
+    {
+      "id": "P5",
+      "area": "东侧"
+    },
+    {
+      "id": "P6",
+      "area": "西侧"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "REC-81",
+      "machine": "P4",
+      "inspector": "周工"
+    },
+    {
+      "id": "REC-83",
+      "machine": "P5",
+      "inspector": "郁工"
+    }
+  ]
+}
