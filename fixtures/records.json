@@ -1,0 +1,14 @@
+[
+  {
+    "record_id": "shift-a",
+    "source": "shift-log",
+    "revision": 1,
+    "text": "包装线 P4 于 09:10 停机，传感器连续报温度偏高，切换旁路后短暂运行。"
+  },
+  {
+    "record_id": "shift-b",
+    "source": "shift-log",
+    "revision": 1,
+    "text": "更换探头并复测通过，上午停机实际开始时间为 09:06。"
+  }
+]
