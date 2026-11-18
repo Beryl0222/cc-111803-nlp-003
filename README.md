@@ -8,6 +8,8 @@
 
 ## 运行
 
+用 `PYTHONPATH=src python -m nlp_maintenance_event_desk.shift_cli` 查看各设备当前排产资格和此前签发的交班。样例中已核对的技术记录具有设备号、发生时刻和停机事件号。试运行可先登记，只有相应当班检验人签认后才恢复排产。
+
 从项目根目录执行 `PYTHONPATH=src python -m nlp_maintenance_event_desk.cli ingest fixtures/records.json` 导入样例，随后执行 `PYTHONPATH=src python -m nlp_maintenance_event_desk.cli list` 查看记录。工作数据写入 `var/records.json`。业务查询使用 fixtures/business.json 中的初始资料，约定见 fixtures/business-contract.md。执行 PYTHONPATH=src python -m nlp_maintenance_event_desk.cli business 可查看当前业务目录结果。
 
 样例为本地合成文本。记录包含来源、修订号和原文，当前工作区对空白做统一处理，并提供字符及英文词项切分。

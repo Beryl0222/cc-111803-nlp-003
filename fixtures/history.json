@@ -1,0 +1,11 @@
+{
+  "events": [
+    {"id": "E-10", "machine": "P4", "kind": "停机", "occurred": "2026-11-17T08:15:00"},
+    {"id": "E-11", "machine": "P4", "kind": "试运行", "occurred": "2026-11-17T09:15:00", "incident": "E-10"},
+    {"id": "E-12", "machine": "P4", "kind": "签认", "occurred": "2026-11-17T09:20:00", "incident": "E-10", "shift": "甲", "inspector": "周工"},
+    {"id": "E-30", "machine": "P5", "kind": "停机", "occurred": "2026-11-17T08:15:00"},
+    {"id": "E-32", "machine": "P5", "kind": "试运行", "occurred": "2026-11-17T09:35:00", "incident": "E-30"},
+    {"id": "E-33", "machine": "P5", "kind": "签认", "occurred": "2026-11-17T09:45:00", "incident": "E-30", "shift": "甲", "inspector": "郁工"}
+  ],
+  "released": [{"ref": "handover-8", "machine": "P4", "released": true, "clearance": "E-12"}]
+}
