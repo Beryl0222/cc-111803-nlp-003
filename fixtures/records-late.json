@@ -1,0 +1,14 @@
+[
+  {
+    "record_id": "log-7",
+    "source": "shift-log",
+    "revision": 1,
+    "text": "补充：P4 在 10:10 又停了一次，现场已复位。"
+  },
+  {
+    "record_id": "log-8",
+    "source": "shift-log",
+    "revision": 1,
+    "text": "补充：P5 复检合格已签认，检查员周工，登记时间在上一次复位前。"
+  }
+]

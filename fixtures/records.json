@@ -1,9 +1,27 @@
 [
   {
-    "record_id": "shift-c",
+    "record_id": "log-1",
     "source": "shift-log",
     "revision": 1,
-    "text": "东侧那台又停了。靠门的设备上一班也报过高温，交班前只确认一台可以继续运行。"
+    "text": "08:15 东侧那台又停了，已通知维修。"
+  },
+  {
+    "record_id": "log-2",
+    "source": "shift-log",
+    "revision": 1,
+    "text": "P4 复位后有跑过一段，继续观察。"
+  },
+  {
+    "record_id": "log-3",
+    "source": "shift-log",
+    "revision": 1,
+    "text": "P5 09:35 复位后试跑正常。"
+  },
+  {
+    "record_id": "log-4",
+    "source": "shift-log",
+    "revision": 1,
+    "text": "P5 高温报警已签认，检查员郁工，时间 09:45。"
   },
   {
     "record_id": "REC-81",
@@ -12,9 +30,9 @@
     "text": "P4 恢复检查合格。时间 10:40，检查员周工。"
   },
   {
-    "record_id": "shift-d",
+    "record_id": "log-6",
     "source": "shift-log",
     "revision": 1,
-    "text": "复核：早上写成 09:10 的那次是 P4。第二次停机是 P5，发生在 10:40 之后。"
+    "text": "复核：08:15 停的那台是 P4。"
   }
 ]
